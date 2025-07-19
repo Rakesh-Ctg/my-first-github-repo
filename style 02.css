@@ -1,0 +1,98 @@
+/* Reset & base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  /* -------------------------------
+     Action Section
+  ---------------------------------*/
+  .action-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f4ff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .action-left {
+    flex: 1;
+  }
+  
+  .action-left h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .action-left p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .action-left button {
+    padding: 10px 20px;
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .action-right {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .action-right img {
+    max-width: 80%;
+  }
+  
+  /* -------------------------------
+     Productive Users Section
+  ---------------------------------*/
+  .users-section {
+    background-color: #eef2ff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .users-section h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .user-stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .stat-box {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .stat-box h3 {
+    font-size: 26px;
+    color: #3f51b5;
+  }
+  
+  .stat-box p {
+    font-size: 14px;
+    color: #333;
+  }
+  
