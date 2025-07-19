@@ -1,0 +1,568 @@
+/* সবকিছুর margin/padding 0 করা */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar Design */
+.navbar {
+  background-image: url("Hero-bg.png"); /* পেছনের ছবি */
+  background-size: cover;
+  background-position: center;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: blue;
+  font-weight: bold;
+}
+
+.signup {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Banner Design */
+.banner {
+  background-image: url("Hero-bg.png");
+   /* C:\Projects\my-first-github-repo */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 28px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.focus {
+  background-color: blue;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+/* -------------------------------
+   Action Section
+---------------------------------*/
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f4ff;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.action-left {
+  flex: 1;
+}
+
+.action-left h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.action-left p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.action-left button {
+  padding: 10px 20px;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.action-right {
+  flex: 1;
+  text-align: center;
+}
+
+.action-right img {
+  max-width: 80%;
+}
+
+/* -------------------------------
+   Productive Users Section
+---------------------------------*/
+.users-section {
+  background-color: #eef2ff;
+  padding: 40px 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.users-section h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.user-stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.stat-box h3 {
+  font-size: 26px;
+  color: #3f51b5;
+}
+
+.stat-box p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* General Styling for demonstration - you'd customize these */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 5. Let's Get In Touch Section Styling */
+.contact-section {
+  background-color: #f9f9f9; /* Light background */
+  padding: 80px 0;
+  text-align: center; /* For centering content within the section */
+}
+
+.contact-content {
+  display: flex; /* Enables flexbox for two columns */
+  flex-wrap: wrap; /* Allows columns to wrap on smaller screens */
+  justify-content: center; /* Center items horizontally */
+  align-items: flex-start; /* Align items to the top (adjust as needed) */
+  gap: 40px; /* Space between the left and right sides */
+  text-align: left; /* Reset text alignment for content inside columns */
+}
+
+.left-side {
+  flex: 1; /* Allows left side to grow */
+  min-width: 300px; /* Minimum width for left column before wrapping */
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 3em; /* Larger font for the main title */
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.right-side {
+  flex: 2; /* Allows right side (form) to take more space */
+  min-width: 350px; /* Minimum width for right column before wrapping */
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for the form box */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block; /* Make labels take full width and stack */
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  box-sizing: border-box; /* Include padding and border in element's total width */
+}
+
+.contact-form textarea {
+  resize: vertical; /* Allow vertical resizing of textarea */
+  min-height: 100px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff; /* Highlight border on focus */
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+.submit-button {
+  background-color: #007bff; /* Blue button */
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto; /* Allow button to take natural width */
+  display: inline-block; /* Ensure button can be styled correctly */
+}
+
+.submit-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .contact-content {
+      flex-direction: column; /* Stack columns vertically */
+      align-items: center; /* Center items when stacked */
+  }
+
+  .left-side,
+  .right-side {
+      width: 100%; /* Take full width */
+      min-width: unset; /* Remove min-width constraint */
+      padding: 20px;
+  }
+
+  .section-title {
+      font-size: 2.5em; /* Adjust font size for smaller screens */
+      text-align: center;
+  }
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+.focus-section {
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+
+.focus-section h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.focus-section p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.btn {
+  padding: 14px 28px;
+  font-size: 1rem;
+  background: #5c5cff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #4a4aff;
+}
+
+.image-preview {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.image-preview img {
+  max-width: 90%;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+
+
+
+/* 7. Users' Feedback Section Styling */
+.feedback-section {
+  background-color: #f9f9f9; /* হালকা ধূসর ব্যাকগ্রাউন্ড */
+  padding: 80px 0;
+  text-align: center; /* ভেতরের কন্টেন্টকে মাঝখানে আনা */
+}
+
+.feedback-main-title {
+  font-size: 3em;
+  color: #2c3e50;
+  margin-bottom: 60px;
+}
+
+.feedback-grid {
+  display: flex; /* কার্ডগুলোকে পাশাপাশি সাজানোর জন্য */
+  flex-wrap: wrap; /* ছোট স্ক্রিনে নিচে নিচে আসার জন্য */
+  justify-content: center; /* কার্ডগুলোকে মাঝখানে আনার জন্য */
+  gap: 30px; /* কার্ডগুলোর মধ্যে ফাঁকা স্থান */
+}
+
+.feedback-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* হালকা ছায়া */
+  text-align: left;
+  max-width: 350px; /* কার্ডের সর্বোচ্চ প্রস্থ */
+  flex: 1; /* প্রয়োজন মতো বাড়তে দেওয়া */
+  min-width: 280px; /* সর্বনিম্ন প্রস্থ, যাতে খুব ছোট না হয় */
+  display: flex; /* ভেতরের কন্টেন্টকে উল্লম্বভাবে সাজানোর জন্য */
+  flex-direction: column;
+  justify-content: space-between; /* কন্টেন্টকে উপরে এবং নিচে ছড়িয়ে দেওয়া */
+}
+
+.stars {
+  color: #f39c12; /* স্টারের রঙ (কমলা) */
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.star {
+  margin-right: 2px; /* স্টারের মধ্যে সামান্য ফাঁকা স্থান */
+}
+
+.feedback-card-title {
+  font-size: 1.5em;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.feedback-text {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  flex-grow: 1; /* টেক্সটকে কার্ডের বাকি স্থান নিতে দেওয়া */
+}
+
+.reviewer-info {
+  display: flex; /* ছবি এবং বিস্তারিত তথ্য পাশাপাশি আনার জন্য */
+  align-items: center; /* উল্লম্বভাবে মাঝখানে আনা */
+  margin-top: 20px;
+}
+
+.reviewer-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* ছবিকে গোলাকার করা */
+  object-fit: cover; /* ছবির অনুপাত ঠিক রাখা */
+  margin-right: 15px;
+  border: 2px solid #eee;
+}
+
+.reviewer-details {
+  display: flex;
+  flex-direction: column; /* নাম এবং তারিখ নিচে নিচে আনা */
+}
+
+.reviewer-name {
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.review-date {
+  font-size: 0.9em;
+  color: #777;
+  margin: 0;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .feedback-main-title {
+      font-size: 2.5em;
+  }
+
+  .feedback-grid {
+      flex-direction: column; /* কার্ডগুলোকে লম্বালম্বিভাবে সাজানো */
+      align-items: center; /* মাঝখানে আনা */
+  }
+
+  .feedback-card {
+      width: 90%; /* ছোট স্ক্রিনে কার্ডের প্রস্থ বাড়ানো */
+      max-width: 400px; /* সর্বোচ্চ প্রস্থ সেট করা */
+  }
+}
+
+
+
+/* 6. Footer Section Styling */
+.main-footer {
+  background-color: #333; /* Dark background for the footer */
+  color: #fff; /* White text color */
+  padding: 60px 0;
+  text-align: center; /* Center all content within the footer */
+}
+
+.footer-content {
+  /* No flexbox needed here if everything is centered vertically by text-align */
+  /* You could use display: flex; flex-direction: column; align-items: center; for more control */
+}
+
+.footer-website-name {
+  font-size: 2.5em; /* Larger font for the logo/name */
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #007bff; /* Blue color for the "LOGO" text */
+}
+
+.footer-subtitle {
+  font-size: 1.1em;
+  margin-bottom: 25px;
+  color: #bbb;
+}
+
+.footer-nav ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Make list items horizontal */
+  justify-content: center; /* Center the navigation links */
+  flex-wrap: wrap; /* Allow links to wrap if screen is too narrow */
+}
+
+.footer-nav li {
+  margin: 0 15px; /* Spacing between navigation items */
+}
+
+.footer-nav a {
+  color: #fff;
+  text-decoration: none; /* Remove underline from links */
+  font-size: 1em;
+  padding: 5px 0;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #007bff; /* Blue on hover */
+}
+
+/* Responsive adjustments for footer on smaller screens */
+@media (max-width: 480px) {
+  .footer-website-name {
+      font-size: 2em;
+  }
+
+  .footer-subtitle {
+      font-size: 1em;
+  }
+
+  .footer-nav li {
+      margin: 0 10px; /* Reduce spacing for very small screens */
+      margin-bottom: 10px; /* Add some vertical spacing if wrapped */
+  }
+
+  .footer-nav ul {
+      flex-direction: column; /* Stack navigation links vertically */
+      align-items: center; /* Center them when stacked */
+  }
+}
+
+/* আগের submit-button স্টাইল */
+.submit-button {
+  background-color: #007bff; /* বাটন নীল রঙ */
+  color: white; /* বাটনের লেখার রঙ সাদা */
+  padding: 15px 30px; /* বাটনের ভেতরের ফাঁকা স্থান */
+  border: none; /* বাটনের বর্ডার সরানো */
+  border-radius: 5px; /* কোণা গোলাকার করা */
+  font-size: 1.1em; /* ফন্ট সাইজ */
+  cursor: pointer; /* মাউস নিয়ে গেলে হাত চিহ্ন দেখানো */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* অ্যানিমেশনের জন্য */
+  width: auto; /* বাটনের স্বাভাবিক প্রস্থ */
+  display: inline-block; /* বাটনকে ইনলাইন ব্লক হিসেবে দেখানো */
+  margin-top: 10px; /* বাটনের উপরে ফাঁকা স্থান */
+}
+
+/* 8. Button Animation: Hover Effect */
+.submit-button:hover,
+.animated-button:hover {
+  background-color: #0056b3; /* মাউস নিলে বাটনের রঙ গাঢ় নীল করা */
+  transform: translateY(-3px); /* মাউস নিলে বাটন সামান্য উপরে উঠবে */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* হালকা ছায়া যোগ করা */
+}
+
+/* নতুন উদাহরণের বাটনের স্টাইল (যদি আপনি অন্য কোনো বাটন ব্যবহার করেন) */
+.animated-button {
+  background-color: #28a745; /* সবুজ রঙ */
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* অ্যানিমেশনের জন্য */
+  text-decoration: none; /* লিঙ্ক হলে আন্ডারলাইন সরানো */
+  display: inline-block;
+}
+
+/* ফুটারের লিঙ্কে হোভার ইফেক্ট (আগের কোড থেকে) */
+.footer-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.05em;
+  padding: 5px 0;
+  transition: color 0.3s ease, transform 0.2s ease; /* অ্যানিমেশনের জন্য */
+}
+
+.footer-nav a:hover {
+  color: #007bff;
+  transform: scale(1.05); /* মাউস নিলে সামান্য বড় হবে */
+}
