@@ -1,0 +1,122 @@
+/* 6. Footer Section Styling */
+.main-footer {
+    background-color: #333; /* Dark background for the footer */
+    color: #fff; /* White text color */
+    padding: 60px 0;
+    text-align: center; /* Center all content within the footer */
+  }
+  
+  .footer-content {
+    /* No flexbox needed here if everything is centered vertically by text-align */
+    /* You could use display: flex; flex-direction: column; align-items: center; for more control */
+  }
+  
+  .footer-website-name {
+    font-size: 2.5em; /* Larger font for the logo/name */
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #007bff; /* Blue color for the "LOGO" text */
+  }
+  
+  .footer-subtitle {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+    color: #bbb;
+  }
+  
+  .footer-nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Make list items horizontal */
+    justify-content: center; /* Center the navigation links */
+    flex-wrap: wrap; /* Allow links to wrap if screen is too narrow */
+  }
+  
+  .footer-nav li {
+    margin: 0 15px; /* Spacing between navigation items */
+  }
+  
+  .footer-nav a {
+    color: #fff;
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1em;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-nav a:hover {
+    color: #007bff; /* Blue on hover */
+  }
+  
+  /* Responsive adjustments for footer on smaller screens */
+  @media (max-width: 480px) {
+    .footer-website-name {
+        font-size: 2em;
+    }
+  
+    .footer-subtitle {
+        font-size: 1em;
+    }
+  
+    .footer-nav li {
+        margin: 0 10px; /* Reduce spacing for very small screens */
+        margin-bottom: 10px; /* Add some vertical spacing if wrapped */
+    }
+  
+    .footer-nav ul {
+        flex-direction: column; /* Stack navigation links vertically */
+        align-items: center; /* Center them when stacked */
+    }
+  }
+  
+  /* আগের submit-button স্টাইল */
+  .submit-button {
+    background-color: #007bff; /* বাটন নীল রঙ */
+    color: white; /* বাটনের লেখার রঙ সাদা */
+    padding: 15px 30px; /* বাটনের ভেতরের ফাঁকা স্থান */
+    border: none; /* বাটনের বর্ডার সরানো */
+    border-radius: 5px; /* কোণা গোলাকার করা */
+    font-size: 1.1em; /* ফন্ট সাইজ */
+    cursor: pointer; /* মাউস নিয়ে গেলে হাত চিহ্ন দেখানো */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* অ্যানিমেশনের জন্য */
+    width: auto; /* বাটনের স্বাভাবিক প্রস্থ */
+    display: inline-block; /* বাটনকে ইনলাইন ব্লক হিসেবে দেখানো */
+    margin-top: 10px; /* বাটনের উপরে ফাঁকা স্থান */
+  }
+  
+  /* 8. Button Animation: Hover Effect */
+  .submit-button:hover,
+  .animated-button:hover {
+    background-color: #0056b3; /* মাউস নিলে বাটনের রঙ গাঢ় নীল করা */
+    transform: translateY(-3px); /* মাউস নিলে বাটন সামান্য উপরে উঠবে */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* হালকা ছায়া যোগ করা */
+  }
+  
+  /* নতুন উদাহরণের বাটনের স্টাইল (যদি আপনি অন্য কোনো বাটন ব্যবহার করেন) */
+  .animated-button {
+    background-color: #28a745; /* সবুজ রঙ */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* অ্যানিমেশনের জন্য */
+    text-decoration: none; /* লিঙ্ক হলে আন্ডারলাইন সরানো */
+    display: inline-block;
+  }
+  
+  /* ফুটারের লিঙ্কে হোভার ইফেক্ট (আগের কোড থেকে) */
+  .footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.05em;
+    padding: 5px 0;
+    transition: color 0.3s ease, transform 0.2s ease; /* অ্যানিমেশনের জন্য */
+  }
+  
+  .footer-nav a:hover {
+    color: #007bff;
+    transform: scale(1.05); /* মাউস নিলে সামান্য বড় হবে */
+  }
