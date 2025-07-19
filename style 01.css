@@ -1,0 +1,60 @@
+/* সবকিছুর margin/padding 0 করা */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar Design */
+.navbar {
+  background-image: url("Hero-bg.png"); /* পেছনের ছবি */
+  background-size: cover;
+  background-position: center;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: blue;
+  font-weight: bold;
+}
+
+.signup {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Banner Design */
+.banner {
+  background-image: url("Hero-bg.png");
+   /* C:\Projects\my-first-github-repo */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 28px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.focus {
+  background-color: blue;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+}
