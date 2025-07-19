@@ -1,0 +1,87 @@
+/* 5. Let's Get In Touch Section Styling */
+.contact-section {
+    background-color: #f9f9f9; /* Light background */
+    padding: 80px 0;
+    text-align: center; /* For centering content within the section */
+  }
+  
+  .contact-content {
+    display: flex; /* Enables flexbox for two columns */
+    flex-wrap: wrap; /* Allows columns to wrap on smaller screens */
+    justify-content: center; /* Center items horizontally */
+    align-items: flex-start; /* Align items to the top (adjust as needed) */
+    gap: 40px; /* Space between the left and right sides */
+    text-align: left; /* Reset text alignment for content inside columns */
+  }
+  
+  .left-side {
+    flex: 1; /* Allows left side to grow */
+    min-width: 300px; /* Minimum width for left column before wrapping */
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-size: 3em; /* Larger font for the main title */
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .right-side {
+    flex: 2; /* Allows right side (form) to take more space */
+    min-width: 350px; /* Minimum width for right column before wrapping */
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for the form box */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    display: block; /* Make labels take full width and stack */
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box; /* Include padding and border in element's total width */
+  }
+  
+  .contact-form textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+    min-height: 100px;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+  }
+  
+  .submit-button {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto; /* Allow button to take natural width */
+    display: inline-block; /* Ensure button can be styled correctly */
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
