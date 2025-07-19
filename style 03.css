@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+.focus-section {
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+
+.focus-section h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.focus-section p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.btn {
+  padding: 14px 28px;
+  font-size: 1rem;
+  background: #5c5cff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #4a4aff;
+}
+
+.image-preview {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.image-preview img {
+  max-width: 90%;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* 7. Users' Feedback Section Styling */
+.feedback-section {
+  background-color: #f9f9f9; /* হালকা ধূসর ব্যাকগ্রাউন্ড */
+  padding: 80px 0;
+  text-align: center; /* ভেতরের কন্টেন্টকে মাঝখানে আনা */
+}
+
+.feedback-main-title {
+  font-size: 3em;
+  color: #2c3e50;
+  margin-bottom: 60px;
+}
+
+.feedback-grid {
+  display: flex; /* কার্ডগুলোকে পাশাপাশি সাজানোর জন্য */
+  flex-wrap:wrap; /* ছোট স্ক্রিনে নিচে নিচে আসার জন্য */
+  justify-content: center; /* কার্ডগুলোকে মাঝখানে আনার জন্য */
+  gap: 30px; /* কার্ডগুলোর মধ্যে ফাঁকা স্থান */
+}
+
+.feedback-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* হালকা ছায়া */
+  text-align: left;
+  max-width: 350px; /* কার্ডের সর্বোচ্চ প্রস্থ */
+  flex: 1; /* প্রয়োজন মতো বাড়তে দেওয়া */
+  min-width: 280px; /* সর্বনিম্ন প্রস্থ, যাতে খুব ছোট না হয় */
+  display: flex; /* ভেতরের কন্টেন্টকে উল্লম্বভাবে সাজানোর জন্য */
+  flex-direction: column;
+  justify-content: space-between; /* কন্টেন্টকে উপরে এবং নিচে ছড়িয়ে দেওয়া */
+}
+
+.stars {
+  color: #f39c12; /* স্টারের রঙ (কমলা) */
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.star {
+  margin-right: 2px; /* স্টারের মধ্যে সামান্য ফাঁকা স্থান */
+}
+
+.feedback-card-title {
+  font-size: 1.5em;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.feedback-text {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  flex-grow: 1; /* টেক্সটকে কার্ডের বাকি স্থান নিতে দেওয়া */
+}
+
+.reviewer-info {
+  display: flex; /* ছবি এবং বিস্তারিত তথ্য পাশাপাশি আনার জন্য */
+  align-items: center; /* উল্লম্বভাবে মাঝখানে আনা */
+  margin-top: 20px;
+}
+
+.reviewer-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* ছবিকে গোলাকার করা */
+  object-fit: cover; /* ছবির অনুপাত ঠিক রাখা */
+  margin-right: 15px;
+  border: 2px solid #eee;
+}
+
+.reviewer-details {
+  display: flex;
+  flex-direction: column; /* নাম এবং তারিখ নিচে নিচে আনা */
+}
+
+.reviewer-name {
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.review-date {
+  font-size: 0.9em;
+  color: #777;
+  margin: 0;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .feedback-main-title {
+      font-size: 2.5em;
+  }
+
+  .feedback-grid {
+      flex-direction: column; /* কার্ডগুলোকে লম্বালম্বিভাবে সাজানো */
+      align-items: center; /* মাঝখানে আনা */
+  }
+
+  .feedback-card {
+      width: 90%; /* ছোট স্ক্রিনে কার্ডের প্রস্থ বাড়ানো */
+      max-width: 400px; /* সর্বোচ্চ প্রস্থ সেট করা */
+  }
+}
+
+
